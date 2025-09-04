@@ -18,8 +18,8 @@ app.post('/submit', (req, res) => {
 
 // Endpoint to get code analysis suggestions
 app.get('/suggestions', (req, res) => {
-    // TODO: Add logic to retrieve suggestions
-    res.status(200).send('Here are some suggestions.');
+    const suggestions = ["Use descriptive variable names", "Avoid deeply nested structures", "Comment your code appropriately"];  // Example suggestions
+    res.status(200).json(suggestions);
 });
 
 app.listen(PORT, () => {
