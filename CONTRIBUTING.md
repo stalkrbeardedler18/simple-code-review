@@ -9,9 +9,9 @@ Thank you for your interest in contributing to **Simple Code Review**! We welcom
    git checkout -b my-feature-branch
    ```
 3. **Make Your Changes:** Implement your feature or fix the bug.
-4. **Commit Your Changes:** Make your commit messages descriptive of the changes to clearly communicate what you have done.
+4. **Commit Your Changes:** Make your commit messages descriptive of the changes and include relevant issue numbers to clearly communicate what you have done.
    ```bash
-   git commit -m 'Add new feature'
+   git commit -m 'Add new feature #123'
    ```
 5. **Push Your Branch:** Push your changes to your forked repository.
    ```bash
