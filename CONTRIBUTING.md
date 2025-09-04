@@ -8,7 +8,7 @@ Thank you for your interest in contributing to **Simple Code Review**! We welcom
    ```bash
    git checkout -b my-feature-branch
    ```
-3. **Make Your Changes:** Implement your feature or fix the bug.
+3. **Make Your Changes:** Implement your feature or fix the bug as needed.
 4. **Commit Your Changes:** Make your commit messages descriptive of the changes and include relevant issue numbers to clearly communicate what you have done.
    ```bash
    git commit -m 'Implement feature related to issue #123'
