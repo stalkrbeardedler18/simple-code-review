@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 
 // Endpoint to submit code for review
 app.post('/submit', (req, res) => {
-    const codeSnippet = req.body.code;
-    if (!codeSnippet) {
-        return res.status(400).send('Code snippet is required.');
+    const { code: codeSnippet, user } = req.body;
+    if (!codeSnippet || !user) {
+        return res.status(400).send('Code snippet and user info are required.');
     }
     // TODO: Add logic to analyze code
     res.status(200).send('Code submitted for review successfully!');
