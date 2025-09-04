@@ -18,7 +18,7 @@ app.post('/submit', (req, res) => {
 
 // Endpoint to get code analysis suggestions
 app.get('/suggestions', (req, res) => {
-    const suggestions = ["Use descriptive variable names", "Avoid deeply nested structures", "Comment your code appropriately"];  // Example suggestions
+    const suggestions = ["Use descriptive variable names to enhance readability", "Avoid deeply nested structures for better maintainability", "Comment your code appropriately to improve clarity"];  // Example suggestions
     res.status(200).json(suggestions);
 });
 
