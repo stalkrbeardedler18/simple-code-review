@@ -16,7 +16,7 @@ app.post('/submit', (req, res) => {
     res.status(200).send('Code submitted for review successfully!');
 });
 
-// Endpoint to get suggestions
+// Endpoint to get code analysis suggestions
 app.get('/suggestions', (req, res) => {
     // TODO: Add logic to retrieve suggestions
     res.status(200).send('Here are some suggestions.');
